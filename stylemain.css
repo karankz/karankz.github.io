@@ -1,0 +1,67 @@
+
+
+body{
+
+     background: url(ww.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+header{
+	height: 100px;
+	padding-top: 200px;
+}
+h1{
+
+	text-align: center;
+	transition: 1s;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: white;
+}
+h1:hover{
+
+	
+	border-radius: 200px;
+	font-size: 3em;
+	text-align: center;
+	border-width: 2px;
+	border: rgba(204,168,48,0.3)   ;
+	border-bottom: white;
+	background-color: rgba(204,168,48,0.3);
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+hr{
+	border-color: rgba(204,168,48,0.3) ;
+	max-width: 90px;
+}
+
+.btn{
+	text-align: center;
+	transition: 1s;
+	align-content: center;
+	font-weight: 700;
+	text-align: center;
+	background-color: rgba(204,168,48,0.3)  ;
+}
+.btn:hover{
+	padding: 2rem 2rem;
+	background-color: rgba(204,100,48,0.3);
+	border-radius: 200px;
+	font-size: 10px;
+
+}
+.btnn{
+	height: 150px;
+	text-align: center;
+}
